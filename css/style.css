@@ -1,0 +1,113 @@
+* {
+  font-family: Open Sans;
+}
+
+.send {
+  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+input[type="text"] {
+  text-align: left;
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  text-align: left;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.item-info {
+  display: inline-block;
+  /*border: 1px solid   ;*/
+  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.item-info input[type="number"] {
+  text-align: center;
+}
+
+.proj-info {
+  display: inline-block;
+  position: relative;
+  /*border: 1px solid   ;*/
+  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.proj-name {
+  /*  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;*/
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  color: #575759;
+}
+
+.proj-description {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.proj-contacts {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.proj-image {
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.add-to-cart {
+  background-image: url("https://simg.marwin.kz/static/version1586431003/frontend/Astrio/komfort/ru_RU/images/cart.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 40px;
+  background-size: 33px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.item-name {
+  color: #007bff;
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.rightimg {
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+
+li {
+  margin-top: 15px;
+}
+
+.page-footer {
+  background-color: #f5f5f5;
+  margin-top: 400px;
+}
